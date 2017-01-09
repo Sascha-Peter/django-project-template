@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 
 import os
 import sys
-import secrets
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -21,8 +21,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAIN_DIR = os.path.dirname(__file__)
 PROJ_DIR = os.path.dirname(MAIN_DIR)
 
+# We ignore PEP8 here for the sake of having the libs folder added to the path
 sys.path.append(os.path.join(PROJ_DIR, 'libs'))
-
+import secrets
 SECRETS = secrets.getter(os.path.join(PROJ_DIR, 'secrets.json'))
 
 # SECURITY WARNING: keep the secret key used in production secret!
