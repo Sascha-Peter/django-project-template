@@ -1,4 +1,4 @@
-# django-project-template
+# {{cookiecutter.repo_name}}
 Simple django project template to speed up initial setup time.
 
 # Requirements
