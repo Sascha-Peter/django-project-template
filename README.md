@@ -18,6 +18,7 @@ Simple django project template to speed up initial setup time.
 ## v0.1.0
 * Base Setup of project
 * Dynamic secret key generation (inspired by OpenShfit)
+
 ## v0.2.0
 * Default base template with bootstrap 3
 * Default navbar template
