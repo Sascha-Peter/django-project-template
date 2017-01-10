@@ -27,4 +27,3 @@ Simple django project template to speed up initial setup time.
 
 # License
 This project is distributed under MIT License.
-See (MIT License)[https://github.com/Sascha-Peter/django-project-template/blob/master/LICENSE]
