@@ -25,5 +25,10 @@ Simple django project template to speed up initial setup time.
 * Default footer template
 * Default django auth system url configuration and base url overwrite
 
+## v0.3.0
+* Set up cookiecutter variables
+* Configure cookiecutter for this template project
+* Relocate requirements file and configure requirements to be kept compatible
+
 # License
 This project is distributed under MIT License.
