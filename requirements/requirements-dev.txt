@@ -1,0 +1,4 @@
+# See pip requirements file example for explanation about ~= 
+# https://pip.pypa.io/en/stable/reference/pip_install/#requirements-file-format
+pip~=9.0
+Django~=1.10.5
