@@ -1,8 +1,8 @@
 {
     "full_name": "Sascha Peter",
     "email": "sascha.o.peter@gmail.com",
-    "project_name": "django_project",
-    "repo_name": "django-template-project",
+    "repo_name": "django-cookiecutter-template-project",
+    "project_name": "django_cookiecutter_project",
     "project_short_description": "Cookie cutter template project for Django.",
     "year": "2017",
     "version": "0.0.1",
