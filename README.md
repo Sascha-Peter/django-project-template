@@ -1,5 +1,5 @@
-# {{cookiecutter.repo_name}}
-Simple django project template to speed up initial setup time.
+# Django cookie cutter template project
+Simple django cookie cutter project to speed up initial setup time.
 
 # Requirements
 * Python 3.4
@@ -29,6 +29,9 @@ Simple django project template to speed up initial setup time.
 * Set up cookiecutter variables
 * Configure cookiecutter for this template project
 * Relocate requirements file and configure requirements to be kept compatible
+
+## v0.3.1
+* Adjust folder structure to follow correct cookie cutter style
 
 # License
 This project is distributed under MIT License.
