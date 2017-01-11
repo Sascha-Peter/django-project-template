@@ -63,7 +63,7 @@ ROOT_URLCONF = '{{cookiecutter.project_name}}.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [MAIN_DIR + '{{cookiecutter.project_name}}/templates'],
+        'DIRS': [BASE_DIR + '/{{cookiecutter.project_name}}/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
