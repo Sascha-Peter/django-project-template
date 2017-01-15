@@ -33,5 +33,9 @@ Simple django cookie cutter project to speed up initial setup time.
 ## v0.3.1
 * Adjust folder structure to follow correct cookie cutter style
 
+## v0.4.0
+* Remove clashing django/jinja2 template syntax
+* Adjust project settings for correct path usage
+
 # License
 This project is distributed under MIT License.
