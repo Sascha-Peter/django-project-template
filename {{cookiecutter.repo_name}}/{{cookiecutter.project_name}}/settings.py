@@ -13,16 +13,17 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 import sys
 
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+print(BASE_DIR)
 # Concept taken from OpenShift (http://openshift.com)
 MAIN_DIR = os.path.dirname(__file__)
 PROJ_DIR = os.path.dirname(MAIN_DIR)
-
+print("Main dir:  %s" % MAIN_DIR)
+print("Proj dir: %s" % PROJ_DIR)
 # We ignore PEP8 here for the sake of having the libs folder added to the path
 sys.path.append(os.path.join(PROJ_DIR, 'libs'))
+print(sys.path)
 import secrets
 SECRETS = secrets.getter(os.path.join(PROJ_DIR, 'secrets.json'))
 
@@ -63,7 +64,7 @@ ROOT_URLCONF = '{{cookiecutter.project_name}}.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR + '/{{cookiecutter.project_name}}/templates'],
+        'DIRS': [MAIN_DIR + '/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
